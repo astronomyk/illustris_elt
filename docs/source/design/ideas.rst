@@ -11,3 +11,12 @@ The main idea::
     Workflow for Illustris-ELT
 
 Steps involved:
+
+
+
+Doctests::
+
+    >>> 1 == 1
+    True
+
+
