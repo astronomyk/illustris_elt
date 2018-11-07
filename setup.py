@@ -3,7 +3,7 @@
 # Learn more: https://github.com/kennethreitz/setup.py
 
 from setuptools import setup, find_packages
-from telescopy.version import __version__
+from illustris_elt.version import __version__
 
 with open('README.md') as f:
     readme = f.read()
