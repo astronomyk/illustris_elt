@@ -10,6 +10,7 @@ Welcome to illustris_elt's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+    design/ideas
 
 
 Indices and tables
