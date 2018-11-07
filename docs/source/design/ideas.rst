@@ -4,6 +4,10 @@ The main idea::
 
     What is the faintest and smallest galaxy in the Illustris sample that will be visible to the ELT
 
-Steps involved:
 
-#.    
+.. figure:: workflow_diagramme.PNG
+    :width: 700
+
+    Workflow for Illustris-ELT
+
+Steps involved:
