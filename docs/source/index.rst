@@ -22,7 +22,16 @@ formed in the universe.
    :maxdepth: 2
    :caption: Contents:
 
-   design/ideas
+
+   background/project_scope_goals
+
+   code_design/ideas
+   roadmap/roadmap
+   background/science_as_software_methodology
+
+
+
+
 
 Goals of this study
 -------------------
