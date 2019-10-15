@@ -47,10 +47,12 @@ The main goals of this project revolve around the central theme::
 Scope and Method
 ----------------
 * We will concentrate on using 3D particle data form the illustris API
-* We will generate realisitic 2D on-sky projections of the particle data
+* We will generate realistic 2D on-sky projections of the particle data
   using the hyperion radiative transfer code
 * We will create simulated observations of particle data using the SimCADO
- instrument data simulation software
+  instrument data simulation software
+* We will determine what star formation rates will be visible for a redshift
+  and volume density
 
 
 

@@ -24,12 +24,13 @@ formed in the universe.
 
 
    background/project_scope_goals
+   background/package_architecture
 
    code_design/ideas
+
    roadmap/roadmap
+
    background/science_as_software_methodology
-
-
 
 
 
