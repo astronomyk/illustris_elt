@@ -60,8 +60,8 @@ def plot_data_set(x, y, z, axes_limit=4):
 
     plt.figure(figsize=(18,12))
     for k, ai, aj, li, lj, title in [[1, x, y, "X", "Y", "Face-on"],
-                                    [2, x, z, "X", "Z", "Edge-on"],
-                                    [3, y, z, "Y", "Z", "End-on"]]:
+                                     [2, x, z, "X", "Z", "Edge-on"],
+                                     [3, y, z, "Y", "Z", "End-on"]]:
         # scatter plots of the particles
         plt.subplot(2, 3, k)
         plt.scatter(ai, aj, s=1)

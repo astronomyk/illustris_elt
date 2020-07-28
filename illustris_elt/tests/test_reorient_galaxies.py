@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from . import reorient_galaxies as rg
+from illustris_elt.illustris_elt import reorient_galaxies as rg
 
 
 def test_make_a_galaxy_dataset_and_reorient_it_with_plots():
@@ -12,10 +12,11 @@ def test_make_a_galaxy_dataset_and_reorient_it_with_plots():
                                ang_yz=np.random.rand()*360,
                                n=10000)
     rg.plot_data_set(x, y, z)
+    plt.suptitle("Before reorientation")
     plt.show()
 
     # find the principle axis and reorient it
     x1, y1, z1 = rg.reorient_coords(x, y, z)
     rg.plot_data_set(x1, y1, z1)
+    plt.suptitle("After reorientation")
     plt.show()
-
